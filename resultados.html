@@ -33,6 +33,69 @@
             
         </form>
     </section>
+    <section>
+        <form name="formulario2" action="procesar.php" method="get">
+            <p><label for="">Nombre:<input type="text" name="nombre" min="18" max="110"></label></p>
+            <p><label for="">Edad:<input type="range" name="edad" min="18" max="110"></label></p>
+            <p><label for="">Correo:<input type="email" name="correo"></label></p>
+            <p><label for="">Celular:<input type="tel" name="celular" maxlength="9"></label></p>
+            <p><label for="">Sitio Web:<input type="url" name="sitioweb"></label></p>
+            <p><input type="submit" value="Enviar"></p>
+
+        </form>
+
+        <form name="formulario3" method="get" action="procesar.php">
+            <p><label>Nombre: <input type="text" name="nombre"
+            maxlength="15"></label></p>
+            <p><label><input type="radio" name="edad" value="15" checked> 15
+            Años</label></p>
+            <p><label><input type="radio" name="edad" value="30"> 30
+            Años</label></p>
+            <p><label><input type="radio" name="edad" value="45"> 45
+            Años</label></p>
+            <p><label><input type="radio" name="edad" value="60"> 60
+            Años</label></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+        <form name="formulario4" method="get" action="procesar.php">
+            <p><label>Nombre: <input type="text" name="nombre"
+            maxlength="15"></label></p>
+            <p><label><input type="checkbox" name="edad15" value="15" checked> 15
+            Años</label></p>
+            <p><label><input type="checkbox" name="edad30" value="30" checked> 30
+            Años</label></p>
+            <p><label><input type="checkbox" name="edad45" value="45"> 45
+            Años</label></p>
+            <p><label><input type="checkbox" name="edad60" value="60"> 60
+            Años</label></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+        <input type="datetime-local" name="fecha">
+
+        <input type="color" name="micolor" value="#99BB00">
+
+        <form action="formulario5" method="get" action="procesar.php">
+            <p><label for="">Nombre: <input type="text" name="nombre"></label></p>
+            <p><label for="">Edad: <input type="text" name="edad"></label></p>
+            <p><input type="image" src="img/botonenviar.png" width="200"></p>
+        </form>
+        <form action="formulario6" method="get" action="procesar.php">
+            <p><label for="">Nombre: <input type="text" name="nombre"></label></p>
+            <p><label for="">Edad: <input type="text" name="edad"></label></p>
+            <p><button type="submit">Enviar Formulario</button></p>
+        </form>
+
+        <form name="formulario7" method="get" action="procesar.php">
+            <p><label>Texto: <textarea name="texto" cols="50"
+            rows="6"></textarea></label></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+    </section>
+
+
     
 </body>
 </html>
