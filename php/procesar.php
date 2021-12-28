@@ -7,14 +7,21 @@
     <title>RESPUESTA</title>
 </head>
 <body>
+
+<section>
+    <p>
+         <?php
+
+            print('El valor es: '.$_GET['val']);
+
+        ?>  
+
+
+    </p>
+</section>
     
 
-<?php
-
-    print('El valor es: '.$_GET['val']);
-
-?>  
-    
+ 
 </body>
 </html>
 
