@@ -93,6 +93,36 @@
             <p><input type="submit" value="Enviar"></p>
         </form>
 
+        <form action="procesar.php" method="get" name="formulario8">
+            <p>
+                <label for="obras">Obras de VyV Bravo:</label>
+                <select name="libro" id="listado">
+                    <option value="1">Vemia</option>
+                    <option value="2">Mood</option>
+                    <option value="3">Carriquiry</option>
+                    <option value="4">Aramburú</option>
+                </select>
+            </p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+        <form name="formulario9" method="get" action="procesar.php">
+            <datalist id="datos">
+            <option value="123123123" label="Teléfono 1">
+            <option value="456456456" label="Teléfono 2">
+            </datalist>
+            <p><label>Teléfono: <input type="tel" name="telefono"
+            list="datos"></label></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
+        <progress value="30" max="100">0%</progress>
+
+        <form name="formulario10" method="get" action="php/procesar.php">
+            <p><input type="text" name="val"></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+
     </section>
 
 
